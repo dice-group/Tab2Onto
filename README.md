@@ -12,7 +12,7 @@ This reposity contains the source code implemenation of paper "Towards Unsupervi
 <p align="center">
 <img src="DAIKIRI-Pipeline2.png" alt="">
 </p>
-<center>Fig. 1 Pipleine of our Semantification Process</center>
+<p align="center">Fig. 1 Pipleine of our Semantification Process</p>
 
 ***
 ### Installation:
@@ -38,10 +38,10 @@ There are two folders for our approach implementation:
 ### Results:
 Fig. 2 shows an example of {transE embeddings, hdbscan clustering} results using t-SNE projection. We plotted entities in six types (education, film, location, music, people, and soccer). It's clearly seen that, entities with same type (e.g. film --in orange color--), cluster well based on their embeddings representation.
 
-<center>
+<p align="center">
 <img src="fb15k-transE-full.png" alt="" width="400" height="300">
- </center>
-<center>Fig. 2 t-SNE visualization of semantification process on FB15k-237 with TransE embedding.</center>
+ </p>
+<p align="center"> Fig. 2 t-SNE visualization of semantification process on FB15k-237 with TransE embedding.</p>
 
 For more visualization results with different embeddings, please check `src/Figures`
 ***
