@@ -9,9 +9,9 @@ This reposity contains the source code implemenation of paper "Towards Unsupervi
    * Then, we employ a density-based clustering approach (hdscan) to detect clusters of entites. Each cluster should have entities with similar properities.
    * Finally, we sample few entities (nearby cluster centroid) and ask human annotators to label them manually. Afterwards, we assign the major type to all entities in the same cluster. 
 
-<center>
+<p align="center">
 <img src="DAIKIRI-Pipeline2.png" alt="">
- </center>
+</p>
 <center>Fig. 1 Pipleine of our Semantification Process</center>
 
 ***
