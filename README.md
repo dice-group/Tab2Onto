@@ -1,6 +1,6 @@
 ## Towards Unsupervised Semantification with Knowledge Graph Embedding
 
-This reposity contains the source code implemenation of paper "Towards Unsupervised Semantification with Knowledge Graph Embedding"
+This reposity contains the source code of paper *Towards Unsupervised Semantification with Knowledge Graph Embedding*
 
 ### Summary:
 * We propose a fully unsupervised approach for predicting entities types in knowledge graphs. Our approach contains four steps as shown in Figure 1:
