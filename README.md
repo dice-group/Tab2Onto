@@ -10,7 +10,7 @@ This reposity contains the source code of paper *Towards Unsupervised Semantific
    * Finally, we sample few entities (nearby cluster centroid) and ask human annotators to label them manually. Afterwards, we assign the major type to all entities in the same cluster. 
 
 <p align="center">
-<img src="src/Figures/pipeline.png" alt="">
+<img src="src/Figures/pipeline2.png" alt="">
 </p>
 <p align="center">Fig. 1 Pipleine of our Semantification Process</p>
 
