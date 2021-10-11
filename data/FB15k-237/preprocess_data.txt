@@ -1,0 +1,3 @@
+We share the preprocessed embedding files used in our experiments in this link https://www.dropbox.com/sh/xhrrn63ya7yew31/AADl5YmN3muv0GUhAfZ_VJi6a?dl=0
+
+There are different KG models for FB15-237 and YAGO datasets such as TransE, ConnectE, DistMult and RotatE
