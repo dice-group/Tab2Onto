@@ -1,50 +1,48 @@
-## Towards Unsupervised Semantification with Knowledge Graph Embedding
+## Tab2Onto: Unsupervised Semantification with Knowledge Graph Embedding
 
-This reposity contains the source code of paper *Towards Unsupervised Semantification with Knowledge Graph Embedding*
+### Overview:
+We propose, Tab2Onto, an unsupervised approach for learning ontologies from tabular data. Our approach includes five steps as shown in Figure 1:
 
-### Summary:
-* We propose a fully unsupervised approach for predicting entities types in knowledge graphs. Our approach contains four steps as shown in Figure 1:
-  * Data preprocessing: Given an input tabular data (csv), we first preprocess the data and tranform it to a knowledge graph (RDF triples). Each triple represent an information about entity `<subject, predicate, object>`
-   * In this step, we employ a knowledge graph embedding to represent entitiens and their relations in the same semantic space. 
-   * Then, we employ a density-based clustering approach (hdscan) to detect clusters of entites. Each cluster should have entities with similar properities.
-   * Finally, we sample few entities (nearby cluster centroid) and ask human annotators to label them manually. Afterwards, we assign the major type to all entities in the same cluster. 
+  (a) Data preprocessing: Given input tabular data (CSV), we first preprocess the data and transform it into a knowledge graph (RDF triples). Each triple describes information about an entity in form `<subject, predicate, object>`
+
+   (b) Knowledge Graph Embedding: in this step, we represent entitiens and their relations into one semantic space. 
+
+   (c) Clustering: we use a density-based clustering approach to detect clusters of entites. Each cluster contains entities with similar properties.
+   (d) Human-In-The-Loop: we incorporate a domain expert as a human-in-the-loop to label clusters based on the properities of its entities. 
+
+   (e) Finally, we populate the assigned label (i.e, class) to all entities within the same cluster.
 
 <p align="center">
-<img src="src/Figures/pipeline2.png" alt="">
-</p>
-<p align="center">Fig. 1 Pipleine of our Semantification Process</p>
+<img src="src/Figures/pipeline.jpeg" alt="">
+<p align="center">
+Tab2Onto pipleine for our semantification process</p>
 
-***
+---
 ### Installation:
-
-* Python: we develop our approach in Python3.6, check https://www.python.org/downloads/release/python-360/ for detailed installation.
-
-* Dependencies: we use different libraries to load, develop and visualize our results, please install them from requirements.txt file via `pip install -r requirements.txt`
-
-* hdbscan: We use the HDBSCAN clustering library (https://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html) to compute density-based clusters. Please check https://pypi.org/project/hdbscan/ to install hdbscan in Python3.6
-* Vectograph: This library is used to construct a knowledge graph (KG) for an input tabular data (CSV). For more details, please follow the instructions described in https://github.com/dice-group/Vectograph 
-
-* Graphvite: This library used to generate the embeddings represenation for an input KG. More information can be found here https://graphvite.io/docs/latest/install.html
+please install them from requirements.txt file via `pip install -r requirements.txt`
 
 ***
+
 ### Dataset:
-* FB15k-237: We experiment our approach on the benchmark dataset (FB15k-237) for type and link prediction tasks. This dataset is a subset of Freebase Knowledge Graph contains 310,116 triples with 14,951 entities and 237 relations. The source can be found in `data` folder.
+* FB15k-237:
+this dataset is a subset of Freebase Knowledge Graph contains $310,116$ triples with $14,951$ entities and $237$ relations. The source can be found in `data` folder. we evaluated our approach on FB15K dataset to assess the performance for predicting types of entities (e.g. movie, person , organization) using embedding-based clustering. 
+As  an example of {transE embeddings, hdbscan clustering} results using t-SNE projection. We plotted entities in six types (education, film, location, music, people, and soccer). It's clearly seen that, entities with same type (e.g. film --in orange color--), cluster well based on their embeddings representation.
+
+<p align="center">
+<img src="src/Figures/fb15k-transE-full.png" alt="" width="400" height="300">
+<p align="center"> t-SNE visualization of semantification process on FB15k-237 with TransE embedding.</p>
+
+  For more visualization results with different embeddings, please check `src/Figures`
+
+* Lymphography Data: 
+we investigated our full pipeline on the SML-Bench dataset, Lymphography. We processed all five steps to convert orginal lymphography data from tabular format to an ontology. The learned ontology are saved as an OWL in RDF/XML format.
 
 ***
 ### How to run:
 There are two folders for our approach implementation: 
 * `src`: contains the source-code in Python 3.6
-* `notebooks`: contains three notebooks for our experiment on FB15k-237. Each notebook evaluates our approach with different KG embeddings (transE, distMult, and rotatE).
+* `notebooks`: contains three notebooks for our experiment on FB15k-237 and Lymphography datasets.
 
-### Results:
-Fig. 2 shows an example of {transE embeddings, hdbscan clustering} results using t-SNE projection. We plotted entities in six types (education, film, location, music, people, and soccer). It's clearly seen that, entities with same type (e.g. film --in orange color--), cluster well based on their embeddings representation.
-
-<p align="center">
-<img src="src/Figures/fb15k-transE-full.png" alt="" width="400" height="300">
- </p>
-<p align="center"> Fig. 2 t-SNE visualization of semantification process on FB15k-237 with TransE embedding.</p>
-
-For more visualization results with different embeddings, please check `src/Figures`
 ***
 ### Aknowledgment: 
 This work was supported by the German Federal Ministry of Education and Research within the DAIKIRI project (grant no: 01IS19085).

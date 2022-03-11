@@ -1,0 +1,1248 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://daikiri-semantificaion.de/onto.owl#"
+     xml:base="http://daikiri-semantificaion.de/onto.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://daikiri-semantificaion.de/onto.owl"/>
+    
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#Fibrosis -->
+
+    <owl:Class rdf:about="http://daikiri-semantificaion.de/onto.owl#Fibrosis">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#Malign-Lymph -->
+
+    <owl:Class rdf:about="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#Metastases -->
+
+    <owl:Class rdf:about="http://daikiri-semantificaion.de/onto.owl#Metastases">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#Normal -->
+
+    <owl:Class rdf:about="http://daikiri-semantificaion.de/onto.owl#Normal">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#a0icbg -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#a0icbg">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#a3kveh -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#a3kveh">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#a3lg4e -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#a3lg4e">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#ac5sr7 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#ac5sr7">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#ap3d87 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#ap3d87">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#apepur -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#apepur">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#b3zdi0 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#b3zdi0">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#b6qdr5 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#b6qdr5">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#bf28z5 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#bf28z5">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#bul981 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#bul981">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#c397l4 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#c397l4">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#c7vuk5 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#c7vuk5">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#cada59 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#cada59">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#cc3orn -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#cc3orn">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#co8cfw -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#co8cfw">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#ctqfsh -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#ctqfsh">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#d4p9zi -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#d4p9zi">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#d57nn3 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#d57nn3">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#d7utst -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#d7utst">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#dex47r -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#dex47r">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#e3gpc3 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#e3gpc3">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#e9r86z -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#e9r86z">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#enk0zg -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#enk0zg">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#eqv3ow -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#eqv3ow">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#et6r37 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#et6r37">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#eyvn8r -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#eyvn8r">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#f5wcxd -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#f5wcxd">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#fi0t5v -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#fi0t5v">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#fmmv13 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#fmmv13">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#ggsk40 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#ggsk40">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#h98sw2 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#h98sw2">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#i5a4rb -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#i5a4rb">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#i7jm5o -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#i7jm5o">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#ia6ew2 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#ia6ew2">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#iq1g4d -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#iq1g4d">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#iqwa22 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#iqwa22">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#istkca -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#istkca">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#jdcxvz -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#jdcxvz">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#jk8lbd -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#jk8lbd">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#jlzu80 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#jlzu80">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#jrzqgp -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#jrzqgp">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#jvz69o -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#jvz69o">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#k0k17m -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#k0k17m">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#kcihhq -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#kcihhq">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#kfl36r -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#kfl36r">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#kvxujq -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#kvxujq">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#l3rnyp -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#l3rnyp">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#l4s4zf -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#l4s4zf">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#ldlql5 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#ldlql5">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#ldtxrt -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#ldtxrt">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#lpmjtm -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#lpmjtm">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#m1o7gm -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#m1o7gm">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#mt6vm5 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#mt6vm5">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#mtigwr -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#mtigwr">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#n415pz -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#n415pz">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#n4mka4 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#n4mka4">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#ndcl7m -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#ndcl7m">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#nfqjq7 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#nfqjq7">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#niafva -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#niafva">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#nle04f -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#nle04f">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#o637cl -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#o637cl">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#o7iat6 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#o7iat6">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#oaqw82 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#oaqw82">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#oonz35 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#oonz35">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#oxq31e -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#oxq31e">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#p1l2o9 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#p1l2o9">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#p5ewis -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#p5ewis">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#pnxi3u -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#pnxi3u">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#pwl2l8 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#pwl2l8">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#pxr0t2 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#pxr0t2">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#q1hdp8 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#q1hdp8">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#q4ah74 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#q4ah74">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#qi0spe -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#qi0spe">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#qlggwo -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#qlggwo">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#qqup1e -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#qqup1e">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#r0srju -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#r0srju">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#r3zr1u -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#r3zr1u">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#r5dbcf -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#r5dbcf">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#r5xlro -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#r5xlro">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#r6nxpl -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#r6nxpl">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#r7bpy8 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#r7bpy8">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#rp2qof -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#rp2qof">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#rs5xyx -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#rs5xyx">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#rvxn3j -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#rvxn3j">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#s70gjk -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#s70gjk">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#s95u5e -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#s95u5e">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#sozm8t -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#sozm8t">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#t67n6u -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#t67n6u">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#t9agez -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#t9agez">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#tczzfv -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#tczzfv">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#tqcv33 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#tqcv33">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#tubdv9 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#tubdv9">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#u11t9k -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#u11t9k">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#u14mox -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#u14mox">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#u65736 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#u65736">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#u8rp2r -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#u8rp2r">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#udgszd -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#udgszd">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#ueb1aq -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#ueb1aq">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#uf2jru -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#uf2jru">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#vjb7qf -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#vjb7qf">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#vqhgpr -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#vqhgpr">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#wil3t8 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#wil3t8">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#x3cz2h -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#x3cz2h">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#x7d6sl -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#x7d6sl">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#x87wkc -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#x87wkc">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#xi0aej -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#xi0aej">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#xql5ex -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#xql5ex">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#xt2trn -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#xt2trn">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#yacde1 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#yacde1">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#z9cqob -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#z9cqob">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#zj2mdb -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#zj2mdb">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#zscfz0 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#zscfz0">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#zv68br -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#zv68br">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#zvowjx -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#zvowjx">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#zwlxct -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#zwlxct">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#0jy2x0 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#0jy2x0">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#0msdqp -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#0msdqp">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#0se3oh -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#0se3oh">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#09ey1n -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#09ey1n">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#1xtbt3 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#1xtbt3">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#11z1wl -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#11z1wl">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#2e25rv -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#2e25rv">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#2l4a3q -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#2l4a3q">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#2szhp9 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#2szhp9">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#3104j6 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#3104j6">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#37nsjk -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#37nsjk">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#4hutyt -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#4hutyt">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#4p1wm6 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#4p1wm6">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#4p3e6e -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#4p3e6e">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#4rszbo -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#4rszbo">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#4xfvpb -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#4xfvpb">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#4y18vf -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#4y18vf">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#431kz1 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#431kz1">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#5fywjn -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#5fywjn">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#5siybx -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#5siybx">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#52a1bv -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#52a1bv">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#6c3pas -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#6c3pas">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#6n456m -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#6n456m">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#7v9z5i -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#7v9z5i">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#7z4zzq -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#7z4zzq">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#8ef3fk -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#8ef3fk">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#8eii6v -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#8eii6v">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#8mx74f -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#8mx74f">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Fibrosis"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#8w4xac -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#8w4xac">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Normal"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#8xfiqk -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#8xfiqk">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#9shta1 -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#9shta1">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Malign-Lymph"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#9vtwzy -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#9vtwzy">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://daikiri-semantificaion.de/onto.owl#9wm6jn -->
+
+    <owl:NamedIndividual rdf:about="http://daikiri-semantificaion.de/onto.owl#9wm6jn">
+        <rdf:type rdf:resource="http://daikiri-semantificaion.de/onto.owl#Metastases"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
