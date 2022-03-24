@@ -1,7 +1,6 @@
 from Semantification import Preprocessing
 from Clustering import density_Clustering
 
-
 def main():
 
     dataloader= Preprocessing(PATH_TRANS_E= 'data/pre-trained/transE_fb15k_256dim.pkl', BASE_PATH_TRUTH = 'data/FB15k-237')
