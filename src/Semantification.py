@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 
 from sklearn.preprocessing import LabelEncoder
-from sklearn.model_selection import train_test_split
 
 class Preprocessing: 
 
@@ -11,21 +10,22 @@ class Preprocessing:
 # on FB15k-237 dataset. 
 # You can can the KG model and the dataset using parameters PATH_TRANS_E and BASE_PATH_TRUTH
 
-    def _init__(self, PATH_TRANS_E= 'data/pre-trained/transE_fb15k_256dim.pkl', BASE_PATH_TRUTH = 'data/FB15k-237'):
+    def _init__(self, PATH_TRANS_E= 'data/FB15k-237/transE_fb15k_256dim.pkl', BASE_PATH_TRUTH = 'data/FB15k-237'):
         # transe_fb15k-237.pkl: pre-trained model of fb15k.
         with open(PATH_TRANS_E, "rb") as fin:
-        model = pickle.load(fin)
+            model = pickle.load(fin)
 
+        self.BASE_PATH_TRUTH=BASE_PATH_TRUTH
         self.entity2id = model.graph.entity2id
-        self.__init__relation2id = model.graph.relation2id
+        self.relation2id = model.graph.relation2id
 
         self.entity_embeddings = model.solver.entity_embeddings
         self.relation_embeddings = model.solver.relation_embeddings
 
-        self.ground_truth=load_Types()
+        self.ground_truth= self.load_Types()
 
         #get (X,y) dataset
-        self.X_all, self.y, self.labels=  filter_topTypes()
+        self.X_all, self.y, self.labels=  self.filter_topTypes()
 
     #Get the ground-truth types (labels) from the dataset
     def load_Types(self): 
@@ -33,7 +33,7 @@ class Preprocessing:
         #extract ground-truth types:
         fb_train=pd.read_csv(self.BASE_PATH_TRUTH + '/train.txt', sep='\t', header=None, index_col=0)
         fb_valid=pd.read_csv(self.BASE_PATH_TRUTH + '/valid.txt', sep='\t', header=None, index_col=0)
-        fb_test=pd.read_csv(slef.BASE_PATH_TRUTH + '/test.txt', sep='\t', header=None, index_col=0)
+        fb_test=pd.read_csv(self.BASE_PATH_TRUTH + '/test.txt', sep='\t', header=None, index_col=0)
 
         fb_df=pd.concat([fb_train, fb_valid, fb_test])
         fb_df['type']= fb_df[1].apply(lambda x: x.split('/')[1])

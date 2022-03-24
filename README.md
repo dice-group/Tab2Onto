@@ -13,7 +13,7 @@ We propose, Tab2Onto, an unsupervised approach for learning ontologies from tabu
    (e) Finally, we populate the assigned label (i.e, class) to all entities within the same cluster.
 
 <p align="center">
-<img src="src/Figures/pipeline.jpeg" alt="">
+<img src="src/Figures/Pipeline.jpeg" alt=""  width="500" height="250">
 <p align="center">
 Tab2Onto pipleine for our semantification process</p>
 
