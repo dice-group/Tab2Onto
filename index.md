@@ -2,7 +2,7 @@ This page provides all code and data for our ESWC poster "Tab2Onto: Unsupervised
 "
 
 cited as:
->@INPROCEEDINGS {zahera2022tab2onto, author = "Hamada M. Zahera, Stefan Heindorf, Stefan Balke, Jonas Haupt, Martin Voigt, Carolin Walter, Fabian Witter and Axel-Cyrille Ngonga Ngomo", title = "Tab2Onto: Unsupervised Semantification with Knowledge Graph Embeddings", booktitle = "The Semantic Web: ESWC 2022 Satellite Events", year = "2022", series = "Springer" } 
+> `@INPROCEEDINGS {zahera2022tab2onto, author = "Hamada M. Zahera, Stefan Heindorf, Stefan Balke, Jonas Haupt, Martin Voigt, Carolin Walter, Fabian Witter and Axel-Cyrille Ngonga Ngomo", title = "Tab2Onto: Unsupervised Semantification with Knowledge Graph Embeddings", booktitle = "The Semantic Web: ESWC 2022 Satellite Events", year = "2022", series = "Springer"}` 
 
 ### Abstract
 "A large amount of data is generated every day by various systems and applications. In many cases, this data comes into a tabular format, which lacks semantic representation and poses new challenges in data modeling. 
@@ -17,13 +17,12 @@ Our approach includes five steps:
    (e) Finally, we populate the assigned label (i.e, class) to all entities within the same cluster.
 
 ### Poster
-
-
+TBD
 ### Source Code: 
-git clone https://github.com/dice-group/Tab2Onto.git
+git clone `https://github.com/dice-group/Tab2Onto.git`
 
 ***
 ### Aknowledgment: 
 This work has been supported by the German Federal Ministry for Economic Affairs and Climate Action (BMWK) within the project RAKI under the grant no 01MD19012B and by the German Federal Ministry of Education and Research (BMBF) within the project DAIKIRI under the grant no 01IS19085B.
 
-If you have any further questions/suggestions, please contact hamada.zahera@upb.de
+If you have any further questions/suggestions, please contact `hamada.zahera@upb.de`
