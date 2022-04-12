@@ -4,12 +4,14 @@ This page provides the code and datasets for our ESWC poster "Tab2Onto: Unsuperv
 Cited as:
 ```
 @INPROCEEDINGS 
-{zahera2022tab2onto, author = "Hamada M. Zahera, Stefan Heindorf, Stefan Balke, Jonas Haupt, Martin Voigt, Carolin Walter, Fabian Witter and Axel-Cyrille Ngonga Ngomo", title = "Tab2Onto: Unsupervised Semantification with Knowledge Graph Embeddings", booktitle = "The Semantic Web: ESWC 2022 Satellite Events", year = "2022", series = "Springer"}
+{zahera2022tab2onto, author = "Hamada M. Zahera, Stefan Heindorf, Stefan Balke, Jonas Haupt, 
+Martin Voigt, Carolin Walter, Fabian Witter and Axel-Cyrille Ngonga Ngomo", 
+title = "Tab2Onto: Unsupervised Semantification with Knowledge Graph Embeddings",
+booktitle = "The Semantic Web: ESWC 2022 Satellite Events", year = "2022", series = "Springer"}
 ``` 
 
 ### Abstract
->"A large amount of data is generated every day by various systems and applications. In many cases, this data comes into a tabular format, which lacks semantic representation and poses new challenges in data modeling. 
-It is necessary to elevate the data into a richer representation, such as a knowledge graph adhering to an ontology. This will assist in the development of data modeling and integration. We propose an unsupervised approach, Tab2Onto, for learning ontologies from tabular data using knowledge graph embeddings, clustering, and a human in the loop. We conduct a set of experiments to investigate our approach on a benchmarking dataset from a medical domain to learn ontology of diseases."
+>"A large amount of data is generated every day by various systems and applications. In many cases, this data comes into a tabular format, which lacks semantic representation and poses new challenges in data modeling. It is necessary to elevate the data into a richer representation, such as a knowledge graph adhering to an ontology. This will assist in the development of data modeling and integration. We propose an unsupervised approach, Tab2Onto, for learning ontologies from tabular data using knowledge graph embeddings, clustering, and a human in the loop. We conduct a set of experiments to investigate our approach on a benchmarking dataset from a medical domain to learn ontology of diseases."
 
 ### How it works:
 >Our approach includes five steps:
