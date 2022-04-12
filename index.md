@@ -3,11 +3,13 @@ This page provides the code and datasets for our ESWC poster "Tab2Onto: Unsuperv
 
 Cited as:
 ```
-@INPROCEEDINGS 
-{zahera2022tab2onto, author = "Hamada M. Zahera, Stefan Heindorf, Stefan Balke, Jonas Haupt, 
+@INPROCEEDINGS {zahera2022tab2onto, 
+author = "Hamada M. Zahera, Stefan Heindorf, Stefan Balke, Jonas Haupt, 
 Martin Voigt, Carolin Walter, Fabian Witter and Axel-Cyrille Ngonga Ngomo", 
 title = "Tab2Onto: Unsupervised Semantification with Knowledge Graph Embeddings",
-booktitle = "The Semantic Web: ESWC 2022 Satellite Events", year = "2022", series = "Springer"}
+booktitle = "The Semantic Web: ESWC 2022 Satellite Events", 
+year = "2022",
+series = "Springer"}
 ``` 
 
 ### Abstract
