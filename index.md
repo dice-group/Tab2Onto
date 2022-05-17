@@ -24,7 +24,7 @@ year = "2022", series = "Springer"}
  >- (e) Finally, we populate the assigned label (i.e, class) to all entities within the same cluster.
 
 ### Poster
-TBD
+[embed]https://github.com/dice-group/Tab2Onto/blob/main/Tab2Onto-Poster.pdf[/embed]
 ### Code: 
 The source code and datasets used in our paper via
 
