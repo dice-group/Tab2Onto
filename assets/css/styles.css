@@ -2,22 +2,3 @@
 ---
 
 @import "{{ site.theme }}";
-
-// adopt color schema from tentris logo
-a, a:visited {
-  font-weight: bold;
-  color:#43a592;
-  font-weight: bold;
-}
-
-a:hover, a:focus  {
-  color: #e53d55;
-}
-
-a:active {
-  color: #982c37;
-}
-
-a:after {
-  color: #982c37;
-}
