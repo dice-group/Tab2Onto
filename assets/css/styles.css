@@ -1,26 +1,23 @@
-@import "variables";
-body {
-  color: $body-text-color;
+---
+---
+
+@import "{{ site.theme }}";
+
+// adopt color schema from tentris logo
+a, a:visited {
+  font-weight: bold;
+  color:#43a592;
+  font-weight: bold;
 }
 
-a {
-  color: $body-link-color;
+a:hover, a:focus  {
+  color: #e53d55;
 }
 
-.page-header {
-  color: $header-heading-color;
-  text-align: center;
-  background-color: $header-bg-color;
+a:active {
+  color: #982c37;
+}
 
-.main-content {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-weight: normal;
-    color: $section-headings-color;
-  }
+a:after {
+  color: #982c37;
+}
