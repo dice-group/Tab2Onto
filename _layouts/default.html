@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    {% seo %}
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="wrapper">
+    <header>
+        <a href="{{ "/" | absolute_url }}"><h1 style="text-align:center;"></h1>
+
+        {% if site.logo %}
+        <img src="{{site.logo | relative_url}}" alt="Tab2Onto" />
+        {% endif %}
+        </a>
+
+        <p style="text-align:center;">Tab2Onto: Unsupervised Semantification with Knowledge Graph Embeddings</p>
+
+        <ul class="downloads">
+            <li><a href="https://papers.dice-research.org/2022/ESWC_Tab2Onto/Tab2Onto_public.pdf">Download <strong>Paper</strong></a></li>
+            <li><a href="https://github.com/dice-group/Tab2Onto">Visit Repo <strong><span style="font-variant:small-caps;">Tab2Onto</span></strong></a></li>
+            <li><a href="https://github.com/dice-group/Tab2Onto">Visit Repo <strong>Hypertrie</strong></a></li>
+        </ul>
+
+    </header>
+    <section>
+
+        {{ content }}
+
+    </section>
+    <footer>
+        <p style="text-align: center">Project by <a href="https://dice-research.org"><img style="vertical-align: middle; max-width: 150px" src="{{ "/assets/img/DICE_logo.svg" | relative_url }}" alt="Dice Group" /></a></p>
+    </footer>
+</div>
+<script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
+</body>
+</html>
