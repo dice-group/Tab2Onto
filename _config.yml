@@ -4,3 +4,5 @@ logo: /assets/Tab2Onto-logo.png
 description:
 show_downloads: true
 repository: dice-group/Tab2Onto
+hide:
+  - title
