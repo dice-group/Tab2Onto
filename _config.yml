@@ -1,8 +1,7 @@
 theme: jekyll-theme-minimal
-title: "Unsupervised Semantification with Knowledge Graph Embeddings"
+title:
 logo: /assets/Tab2Onto-logo.png
 description:
 show_downloads: true
 repository: dice-group/Tab2Onto
-hide:
-  - title
+
