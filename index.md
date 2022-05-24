@@ -1,5 +1,7 @@
-This page provides the code and datasets for our ESWC poster "Tab2Onto: Unsupervised Semantification with Knowledge Graph Embeddings".
-"
+This page provides the code and datasets for our ESWC poster: 
+<p>
+<h3> Tab2Onto: Unsupervised Semantification with Knowledge Graph Embeddings </h3> 
+</p>
 
 Cited as:
 ```
