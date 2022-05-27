@@ -45,10 +45,18 @@ There are two folders for our approach implementation:
 
 ***
 ### Aknowledgment: 
-This work was supported by the German Federal Ministry of Education and Research within the DAIKIRI project (grant no: 01IS19085).
+This work has been supported by the German Federal Ministry for Economic Affairs and Climate Action (BMWK) within the project RAKI under the grant no 01MD19012B and by the German Federal Ministry of Education and Research (BMBF) within the project DAIKIRI under the grant no 01IS19085B.
 ***
 ### Citation
-TBD
 
+```
+@INPROCEEDINGS
+{zahera2022tab2onto, 
+author = "Hamada M. Zahera, Stefan Heindorf, Stefan Balke, Jonas Haupt, 
+Martin Voigt, Carolin Walter, Fabian Witter and Axel-Cyrille Ngonga Ngomo", 
+title = "Tab2Onto: Unsupervised Semantification with Knowledge Graph Embeddings",
+booktitle = "The Semantic Web: ESWC 2022 Satellite Events", 
+year = "2022", series = "Springer"}
+```
 
 If you have any further questions/suggestions, please contact hamada.zahera@upb.de
